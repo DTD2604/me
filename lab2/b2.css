@@ -1,0 +1,116 @@
+.main{
+    border-radius: 10px;
+    width: 1496px;
+    height: 1400px;
+    background-color: rgb(226, 215, 170);
+}
+#title{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+}
+.main .image{
+    width: 95%;
+    height: 530px;
+    margin: auto;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* class:categ */
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+li {
+    padding-top: 30px;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+.categ li.normal a{
+    color:rgb(134, 127, 110);
+}
+.categ li.bold a{
+    font-weight: bold;
+    color: rgb(14, 59, 92);
+}
+
+/* class bottom */
+.bottom {
+    width: 95%;
+    margin: auto;
+}
+.bottom .block{
+    width: 33%;
+    font-family: Roboto,sans-serif;
+    display: inline-block;
+}
+.block h3{
+    text-align: center;
+    padding-right: 7%;
+    margin-bottom: 0;
+}
+.block .bold{
+    font-weight: bold;
+    font-size: 25px;
+}
+.block .blue{
+    color:rgb(5, 5, 236);
+}
+.block img{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+.block p span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.block p{
+    width: 95%;
+    z-index: 1;
+}
+.block .layer{
+    background-color: rgb(137, 83, 9);
+    color:aliceblue;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* event hover */
+.block .layer:hover{
+    background-color: aqua;
+    color:black;
+}
+.block .blue:hover{
+    color:rgb(255, 8, 0);
+}
+.categ li.normal:hover{
+    color:rgb(34, 122, 8);
+    background-color: rgba(128, 255, 0, 0.233);
+}
+.categ li.bold:hover{
+    color:rgb(34, 122, 8);
+    background-color: rgba(128, 255, 0, 0.233);
+}
+
+/* family fonts */
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url(./fonts/Nunito/static/Nunito-ExtraBold.ttf);
+    font-family: 'Courgette', cursive;
+    src: url(./fonts/Courgette/Courgette-Regular.ttf);
+}
